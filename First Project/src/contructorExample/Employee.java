@@ -8,9 +8,6 @@ public class Employee {
 	String salary;
 	
 	
-	
-	
-	
 
 	// creating constrcutor
 
