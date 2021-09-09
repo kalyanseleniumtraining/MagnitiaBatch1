@@ -2,20 +2,17 @@ package test;
 
 public class B {
 	
-	public void add()
-	{
-		int a=100;
-		int b=200;
-		int c=a+b;
-		
-	}
+	int y=200;
 	
 	
 
 	public static void main(String[] args) {
 		
-		B obj=new B();
-		obj.add();
+		A obj=new A();
+		System.out.println(obj.x);
+		
+		B obj1=new B();
+		System.out.println(obj1.y);
 		
 	}
 	
