@@ -2,7 +2,7 @@ package inheritanceExamples;
 
 public class Child extends Parent {
 
-	public void sub() {
+	public void sub1() {
 
 		System.out.println(100 - 6);
 
@@ -10,9 +10,10 @@ public class Child extends Parent {
 
 	public static void main(String[] args) {
 
-		Child ch = new Child();
-
-		ch.sub();
+		Parent p=new Child();
+		p.add();
+		p.sub();
+		p.sub
 
 	}
 
