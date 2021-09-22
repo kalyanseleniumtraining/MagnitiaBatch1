@@ -22,8 +22,13 @@ public class FrameExample {
 		ele.click();
 		
 		
+		String text=driver.switchTo().alert().getText();
+		System.out.println(text);
 		
-		driver.switchTo().defaultContent();
+		driver.switchTo().alert().accept();
+		
+		
+//		driver.switchTo().defaultContent();
 		
 		
 
