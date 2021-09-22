@@ -13,7 +13,7 @@ public class Child extends Parent {
 		Parent p=new Child();
 		p.add();
 		p.sub();
-		p.sub
+	
 
 	}
 
