@@ -1,6 +1,6 @@
 package abstractionExample;
 
-public class Yamaha {
+abstract public class Yamaha {
 	
 	//owner of yamaha
 	
@@ -8,6 +8,13 @@ public class Yamaha {
 	{
 		System.out.println(2);
 	}
+	
+	abstract public void color();
+	
+	abstract public void gears();
+	
+	
+
 	
 	
 
